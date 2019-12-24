@@ -1,0 +1,175 @@
+//snakes header
+	Texture sn[5];
+	if (!sn[0].loadFromFile("purple_snake.png"));
+	if (!sn[1].loadFromFile("yellow_snake.png"));
+	if (!sn[2].loadFromFile("blue_snake.png"));
+	if (!sn[3].loadFromFile("red_snake.png"));
+	if (!sn[4].loadFromFile("green_snake.png"));
+	Sprite snakes_h[5];
+	int x_sn_header = 500, y_sn_header = 230; 
+	int line_sn_h = 1, count_sn_h = 0;
+	int sn_sprite_array = 0;
+	for (int initial = 51; initial <= 99; initial++)
+	{
+		count_sn_h++;
+		for (int s_h = 0; s_h < 5; s_h++)
+		{
+			if (initial == f_s_h[s_h])
+			{
+				snakes_h[sn_sprite_array].setTexture(sn[s_h]);
+				snakes_h[sn_sprite_array].setPosition(x_sn_header, y_sn_header);
+				sn_sprite_array++;
+			}
+		}
+
+		if (line_sn_h % 2 != 0)
+		{
+			if (x_sn_header == 550)
+				x_sn_header = 500;
+			x_sn_header -= 50;
+		}
+		else if (line_sn_h % 2 == 0)
+		{
+			if (x_sn_header == 0)
+				x_sn_header = 50;
+			x_sn_header += 50;
+		}	
+		if (count_sn_h == 10)
+		{
+			line_sn_h = line_sn_h + 1;
+			count_sn_h = 0;
+			y_sn_header -= 50;
+		}
+	
+	}
+	//snakes tails
+	Sprite snakes_t[5];
+	int x_sn_tail = 50, y_sn_tail = 480;
+	int line_sn_t = 1, count_sn_t = 0;
+    sn_sprite_array = 0;
+	for (int initial = 1; initial <= 50; initial++)
+	{
+		count_sn_t++;
+		for (int s_t = 0; s_t < 5; s_t++)
+		{
+			if (initial == f_s_t[s_t])
+			{
+				snakes_t[sn_sprite_array].setTexture(sn[s_t]);
+				snakes_t[sn_sprite_array].setPosition(x_sn_tail, y_sn_tail);
+				sn_sprite_array++;
+			}
+		}
+
+		if (line_sn_t % 2 != 0)
+		{
+			if (x_sn_tail == 0)
+				x_sn_tail = 50;
+			x_sn_tail += 50;
+		}
+		else if (line_sn_t % 2 == 0)
+		{
+			if (x_sn_tail == 550)
+				x_sn_tail = 500;
+			x_sn_tail -= 50;
+		}
+		if (count_sn_t == 10)
+		{
+			line_sn_t = line_sn_t + 1;
+			count_sn_t = 0;
+			y_sn_tail -= 50;
+		}
+
+	}
+	//ladder up
+	Texture ladder[5];
+	if (!ladder[0].loadFromFile("purple_ladder.png"));
+	if (!ladder[1].loadFromFile("yellow_ladder.png"));
+	if (!ladder[2].loadFromFile("blue_ladder.png"));
+	if (!ladder[3].loadFromFile("red_ladder.png"));
+	if (!ladder[4].loadFromFile("green_ladder.png"));
+	Sprite ladder_h[5];
+	int x_ld_header = 500, y_ld_header = 230;
+	int line_ld_h = 1, count_ld_h = 0;
+	int ld_sprite_array = 0;
+	for (int initial = 51; initial <= 100; initial++)
+	{
+		count_ld_h++;
+		for (int l_h = 0; l_h < 5; l_h++)
+		{
+			if (initial == f_l_u[l_h])
+			{
+				ladder_h[ld_sprite_array].setTexture(ladder[l_h]);
+				ladder_h[ld_sprite_array].setPosition(x_ld_header, y_ld_header);
+				ld_sprite_array++;
+			}
+		}
+
+		if (line_ld_h % 2 != 0)
+		{
+			
+			x_ld_header -= 50;
+		}
+		else if (line_ld_h % 2 == 0)
+		{
+			
+			x_ld_header += 50;
+		}
+		if (count_ld_h == 10)
+		{
+			line_ld_h = line_ld_h + 1;
+			count_ld_h = 0;
+			y_ld_header -= 50;
+			if (x_ld_header == 550)
+				x_ld_header = 500;
+			if (x_ld_header == 0)
+				x_ld_header = 50;
+		}
+
+	}
+	//ladder down
+	Sprite ladder_t[5];
+	int x_ld_tail = 50, y_ld_tail = 480;
+	int line_ld_t = 1, count_ld_t = 0;
+	ld_sprite_array = 0;
+	for (int initial = 1; initial <= 50; initial++)
+	{
+		count_ld_t++;
+		for (int l_t = 0; l_t < 5; l_t++)
+		{
+			if (initial == f_l_d[l_t])
+			{
+				ladder_t[ld_sprite_array].setTexture(ladder[l_t]);
+				ladder_t[ld_sprite_array].setPosition(x_ld_tail, y_ld_tail);
+				ld_sprite_array++;
+			}
+		}
+		
+		if (line_ld_t % 2 != 0)
+		{
+		
+			x_ld_tail += 50;
+		}
+		else if (line_ld_t % 2 == 0)
+		{
+			x_ld_tail -= 50;
+		}
+		if (count_ld_t == 10)
+		{
+			line_ld_t = line_ld_t + 1;
+			count_ld_t = 0;
+			y_ld_tail -= 50;
+			if (x_ld_tail == 0)
+				x_ld_tail = 50;
+			if (x_ld_tail == 550)
+				x_ld_tail = 500;
+		}
+
+	}
+ostringstream display_players_numbers;
+	display_players_numbers << number_of_players;
+	Text n_players;
+	n_players.setFont(font);
+	n_players.setString(display_players_numbers.str());
+	n_players.setColor(Color::White);
+	n_players.setPosition(window.getSize().x-100, 20);
+	n_players.setCharacterSize(25);

@@ -1,5 +1,5 @@
 ﻿  game.cpp
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -8,21 +8,12 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(53): warn
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(59): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(59): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -31,18 +22,7 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(65): warn
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(67): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(90): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(92): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -51,7 +31,18 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(93): warn
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(99): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(67): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(90): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(92): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -60,12 +51,7 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(99): warn
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(100): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(107): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(99): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -74,8 +60,12 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(107): war
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(214): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(228): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(100): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(107): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -84,12 +74,8 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(228): war
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(229): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(280): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(214): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(228): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -98,13 +84,12 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(280): war
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(306): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(330): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(365): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(402): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(444): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(482): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(513): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(229): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(280): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -113,7 +98,13 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(513): war
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(541): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(306): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(330): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(365): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(402): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(444): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(482): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(513): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -122,21 +113,30 @@ c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(541): war
           [
               T=float
           ]
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(348): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(349): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(350): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(351): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(352): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(427): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(428): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(429): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(430): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(431): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(622): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(662): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(665): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(669): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(677): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(679): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\egypt\source\repos\testsnake-ladder\testsnake-ladder\game.cpp(681): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  testsnake-ladder.vcxproj -> C:\Users\egypt\source\repos\testsnake-ladder\Debug\testsnake-ladder.exe
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(541): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(348): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(349): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(350): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(351): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(352): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(427): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(428): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(429): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(430): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(431): warning C4390: ';': empty controlled statement found; is this the intent?
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(622): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(662): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(665): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(669): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(677): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(679): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\projects\snake-laddergame-master\snake-laddergame\testsnake-ladder\game.cpp(681): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  testsnake-ladder.vcxproj -> F:\projects\snake-laddergame-master\snake-laddergame\Debug\testsnake-ladder.exe

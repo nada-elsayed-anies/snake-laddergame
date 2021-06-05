@@ -168,6 +168,7 @@ void minue_window(Font font, RenderWindow& window , player players[] )
 						play_window(font, window,players);
 						break;
 					case 1:
+						
 						producers_window(font, window, players);
 						click_sound.play();
 						break;
@@ -199,13 +200,16 @@ void minue_window(Font font, RenderWindow& window , player players[] )
 }
 
 void play_window(Font font , RenderWindow& window , player players[] ) {
+
 	int number_of_players;
-	cin >> number_of_players;
-	if (number_of_players <= 1) 
-	{
-		cout << "                error!!! number of players must be 2 or more" << endl;
+	while (true) {
 		cin >> number_of_players;
+		if (number_of_players <= 1)
+			cout << "                error!!! number of players must be 2 or more" << endl;
+		else
+			break;
 	}
+	
 	for (int i = 0; i < number_of_players; i++) 
 	{
 		cout << "enter the name of player " << i + 1 << " : ";
